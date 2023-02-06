@@ -3,7 +3,7 @@
     "message": "Tidier Bookmark"
   },
   "extensionDescription": {
-    "message": "Allows you to automatically modify the bookmark name according to the user-defined regular expression rules when adding bookmarks, so as to obtain a cleaner bookmark."
+    "message": "Allows you to automatically modify the bookmark name according to the user-defined regular expression rules when adding bookmarks."
   },
   "bookmarkNameLabel": {
     "message": "Name"
