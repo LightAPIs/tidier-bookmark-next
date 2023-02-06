@@ -1,0 +1,436 @@
+{
+  "extensionName": {
+    "message": "Tidier Bookmark"
+  },
+  "extensionDescription": {
+    "message": "Allows you to automatically modify the bookmark name according to the user-defined regular expression rules when adding bookmarks, so as to obtain a cleaner bookmark."
+  },
+  "bookmarkNameLabel": {
+    "message": "Name"
+  },
+  "bookmarkOriginalNameLabel": {
+    "message": "Old$colon$",
+    "placeholders": {
+      "colon": {
+        "content": "$1",
+        "example": ":"
+      }
+    }
+  },
+  "bookmarkUrlLabel": {
+    "message": "URL$colon$",
+    "placeholders": {
+      "colon": {
+        "content": "$1",
+        "example": ":"
+      }
+    }
+  },
+  "bookmarkFolderLabel": {
+    "message": "Folder"
+  },
+  "bookmarkAddedTitle": {
+    "message": "Bookmark added"
+  },
+  "bookmarkAddingTitle": {
+    "message": "Add bookmark"
+  },
+  "bookmarkModifyTitle": {
+    "message": "Edit bookmark"
+  },
+  "bookmarkAddTip": {
+    "message": "bookmark this tab"
+  },
+  "bookmarkModifyTip": {
+    "message": "Edit bookmark for this tab"
+  },
+  "bookmarkTitlePlaceholder": {
+    "message": "Please enter a name"
+  },
+  "bookmarkUrlPlaceholder": {
+    "message": "Please enter the URL"
+  },
+  "bookmarkFolderPlaceholder": {
+    "message": "Please enter a folder name"
+  },
+  "bookmarkRenameText": {
+    "message": "Rename"
+  },
+  "bookmarkRenameTip": {
+    "message": "Rename the bookmark name according to the rules"
+  },
+  "bookmarkRestoreText": {
+    "message": "Restore"
+  },
+  "bookmarkRestoreNameTip": {
+    "message": "Restore the original name"
+  },
+  "bookmarkRestoreUrlTip": {
+    "message": "Restore the original URL"
+  },
+  "bookmarkNewFolderText": {
+    "message": "New folder"
+  },
+  "bookmarkOptionsText": {
+    "message": "Options"
+  },
+  "bookmarkSaveText": {
+    "message": "Save"
+  },
+  "bookmarkRemoveText": {
+    "message": "Remove"
+  },
+  "bookmarkOkText": {
+    "message": "Ok"
+  },
+  "bookmarkCancelText": {
+    "message": "Cancel"
+  },
+  "bookmarkErrorUpdateText": {
+    "message": "Unable to update bookmark"
+  },
+  "bookmarkErrorMoveText": {
+    "message": "Unable to move bookmark"
+  },
+  "bookmarkErrorCreateText": {
+    "message": "Unable to create bookmark"
+  },
+  "bookmarkErrorCreateFolderText": {
+    "message": "Unable to create folder"
+  },
+  "bookmarkSuccessCreateFolderText": {
+    "message": "New folder successfully created"
+  },
+  "bookmarkSuccessMoveToNewFolderText": {
+    "message": "Bookmark has been automatically moved to the new folder"
+  },
+  "bookmarkErrorMoveToNewFolderText": {
+    "message": "Cannot automatically move a bookmark to a new folder"
+  },
+  "optionsTitle": {
+    "message": "Options"
+  },
+  "optionsGeneralSettingsText": {
+    "message": "General settings"
+  },
+  "optionsRuleListText": {
+    "message": "List of rules"
+  },
+  "optionsBatchOperationText": {
+    "message": "Batch operation"
+  },
+  "optionsAboutText": {
+    "message": "About the extension"
+  },
+  "optionsImportText": {
+    "message": "Import"
+  },
+  "optionsImportTip": {
+    "message": "This may overwrite the current settings and rules"
+  },
+  "optionsImportNoFileText": {
+    "message": "No file selected"
+  },
+  "optionsImportValidText": {
+    "message": "This is an invalid file"
+  },
+  "optionsImportNotATextFile": {
+    "message": "This is not a text file"
+  },
+  "optionsImportCannotFindFile": {
+    "message": "Cannot find file"
+  },
+  "optionsImportEmptyText": {
+    "message": "File content is empty"
+  },
+  "optionsImportErrorObjectText": {
+    "message": "Error parsing object"
+  },
+  "optionsExportText": {
+    "message": "Export"
+  },
+  "optionsExportLabel": {
+    "message": "Please select the content to be exported:"
+  },
+  "optionsExportSettingsValue": {
+    "message": "Settings"
+  },
+  "optionsExportRulesValue": {
+    "message": "Rules"
+  },
+  "optionsExportSuccess": {
+    "message": "Successfully export file"
+  },
+  "settingsBookmarkLabel": {
+    "message": "Bookmarks"
+  },
+  "settingsBookmarkOnTopText": {
+    "message": "The newly added bookmark is always at the top of the current folder"
+  },
+  "settingsFolderOnTopText": {
+    "message": "The newly created folder is always at the top of the current folder"
+  },
+  "settingsDisableAutoAddText": {
+    "message": "Disable automatic bookmarking when clicking the extension icon"
+  },
+  "settingsSkinLabel": {
+    "message": "Appearance"
+  },
+  "settingsUseFavoritesIconText": {
+    "message": "Replace the extension icon with the browser's default favorites icon"
+  },
+  "settingsDarkModeText": {
+    "message": "Dark mode policy$colon$",
+    "placeholders": {
+      "colon": {
+        "content": "$1",
+        "example": ":"
+      }
+    }
+  },
+  "settingsDarkModeOptionsDefault": {
+    "message": "Default"
+  },
+  "settingsDarkModeOptionsEnabled": {
+    "message": "Enabled"
+  },
+  "settingsDarkModeOptionsDisabled": {
+    "message": "Disabled"
+  },
+  "settingsShortcutsLabel": {
+    "message": "Shortcuts"
+  },
+  "settingsShortcutsDescription": {
+    "message": "You can bind the activation shortcut for Tidier Bookmark in the extension keyboard shortcuts page to replace the default bookmark saving shortcut, for example: Ctrl + D (Mac: ⌘ + D)."
+  },
+  "settingsShortcutsGoText": {
+    "message": "Go to:"
+  },
+  "settingsShortcutsPageText": {
+    "message": "Keyboard shortcuts"
+  },
+  "rulesTableEnableText": {
+    "message": "Enable"
+  },
+  "rulesTableIndexText": {
+    "message": "Index"
+  },
+  "rulesTableNameText": {
+    "message": "Name"
+  },
+  "rulesTableRegText": {
+    "message": "Regex"
+  },
+  "rulesTableReplacementText": {
+    "message": "Replacement"
+  },
+  "rulesTableOperationText": {
+    "message": "Operation"
+  },
+  "rulesHandleAddText": {
+    "message": "Add"
+  },
+  "rulesHandleDefaultNameText": {
+    "message": "Rule $count$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "rulesOperationDeleteText": {
+    "message": "Delete"
+  },
+  "rulesDeleteTip": {
+    "message": "Are you sure to delete?"
+  },
+  "rulesOperationEditText": {
+    "message": "Edit"
+  },
+  "rulesEditModalTitle": {
+    "message": "Edit rule"
+  },
+  "rulesEditModalAddTitle": {
+    "message": "Add rule"
+  },
+  "rulesEditPatternLabel": {
+    "message": "Pattern$colon$",
+    "placeholders": {
+      "colon": {
+        "content": "$1",
+        "example": ":"
+      }
+    }
+  },
+  "rulesEditPatternMessage": {
+    "message": "Please enter a pattern"
+  },
+  "rulesEditFlagsLabel": {
+    "message": "Flags$colon$",
+    "placeholders": {
+      "colon": {
+        "content": "$1",
+        "example": ":"
+      }
+    }
+  },
+  "rulesEditFlagsGTip": {
+    "message": "Global search"
+  },
+  "rulesEditFlagsITip": {
+    "message": "Case-insensitive search"
+  },
+  "rulesEditFlagsUTip": {
+    "message": "\"unicode\"; treat a pattern as a sequence of unicode code points."
+  },
+  "rulesEditRegexHelp": {
+    "message": "For more on how to use Regex, see: "
+  },
+  "rulesEditRegexUrl": {
+    "message": "https://github.com/ziishaned/learn-regex/blob/master/README.md"
+  },
+  "rulesEditReplacementLabel": {
+    "message": "Replacement$colon$",
+    "placeholders": {
+      "colon": {
+        "content": "$1",
+        "example": ":"
+      }
+    }
+  },
+  "rulesEditReplacementHelp": {
+    "message": "Special string:"
+  },
+  "rulesEditReplacementMatched": {
+    "message": "$$& means the whole matched string"
+  },
+  "rulesEditReplacementSub": {
+    "message": "$$1, $$2,..., $$n means capturing the substring matched by brackets"
+  },
+  "rulesEditReplacementSymbol": {
+    "message": "$$$ means $$ symbol"
+  },
+  "rulesClear": {
+    "message": "Clear"
+  },
+  "rulesEditReplacementPlaceholder": {
+    "message": "Blank means to clear the matching content"
+  },
+  "rulesEditIndexHelp": {
+    "message": "The rules that precede the index are applied first"
+  },
+  "rulesEditTestLabel": {
+    "message": "Test content$colon$",
+    "placeholders": {
+      "colon": {
+        "content": "$1",
+        "example": ":"
+      }
+    }
+  },
+  "rulesEditTestHelp": {
+    "message": "Used only to test replacement results"
+  },
+  "rulesEditTestResultLabel": {
+    "message": "Test results$colon$",
+    "placeholders": {
+      "colon": {
+        "content": "$1",
+        "example": ":"
+      }
+    }
+  },
+  "rulesEditTestText": {
+    "message": "Test"
+  },
+  "rulesEditConfirmText": {
+    "message": "Confirm"
+  },
+  "rulesTestModalTitle": {
+    "message": "Test rules"
+  },
+  "rulesTestMatchLabel": {
+    "message": "Matching rules$colon$",
+    "placeholders": {
+      "colon": {
+        "content": "$1",
+        "example": ":"
+      }
+    }
+  },
+  "rulesFilterSearchText": {
+    "message": "Search"
+  },
+  "rulesFilterSearchPlaceholder": {
+    "message": "Search $keyword$",
+    "placeholders": {
+      "keyword": {
+        "content": "$1"
+      }
+    }
+  },
+  "rulesFilterResetText": {
+    "message": "Reset"
+  },
+  "batchPreviewText": {
+    "message": "Preview"
+  },
+  "batchEffectText": {
+    "message": "Effect"
+  },
+  "batchNewNameLabel": {
+    "message": "New name$colon$",
+    "placeholders": {
+      "colon": {
+        "content": "$1",
+        "example": ":"
+      }
+    }
+  },
+  "batchCompletionText": {
+    "message": "Batch replacement completed!"
+  },
+  "batchNoMatching": {
+    "message": "No matching results."
+  },
+  "batchUndoText": {
+    "message": "Undo"
+  },
+  "aboutSupportDividerText": {
+    "message": "Support"
+  },
+  "aboutSupportLabel": {
+    "message": "Tidier Bookmark is an open source and free Chrome extension and will never collect or send any private information from you."
+  },
+  "aboutSourceCodeText": {
+    "message": "Source code (GPLv3)"
+  },
+  "aboutFeedbackText": {
+    "message": "Feedback"
+  },
+  "aboutRegexText": {
+    "message": "Regular expression help(learn-regex)"
+  },
+  "aboutDependencyDividerText": {
+    "message": "Project dependency"
+  },
+  "aboutDependencyLabel": {
+    "message": "Tidier Bookmark depends on the following open source projects:"
+  },
+  "contextMenusBrowserRulesTitle": {
+    "message": "Create a new rule"
+  },
+  "commandActivate": {
+    "message": "Activate the extension"
+  },
+  "triggerDesc": {
+    "message": "Click to sort descending"
+  },
+  "triggerAsc": {
+    "message": "Click to sort ascending"
+  },
+  "cancelSort": {
+    "message": "Click to cancel sorting"
+  }
+}

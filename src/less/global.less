@@ -1,0 +1,192 @@
+// Custom variables
+
+// **light mode**
+// ------------------------------------------------------
+
+@general-background-color: #fff;
+@header-background-color: @general-background-color;
+@content-background-color: @general-background-color;
+@layout-background-color: @general-background-color;
+@logo-text-color: @general-background-color;
+@logo-background-color: rgba(255, 255, 255, 0.2);
+@scrollbar-background-color: #e1e1e1;
+@scrollbar-thumb-background-color: #939596;
+@filtered-color: #108ee9;
+@arrow-color: #d12121;
+@link-color: #1890ff;
+
+// ------------------------------------------------------
+
+// **dark mode**
+
+@general-background-color-dark: #292a2d;
+@header-background-color-dark: @general-background-color-dark;
+@content-background-color-dark: #202124;
+@layout-background-color-dark: #3c4043;
+@logo-text-color-dark: rgba(255, 255, 255, 0.65);
+@logo-background-color-dark: rgba(0, 0, 0, 0.8);
+@select-selection-background-color-dark: #1d1d1f;
+@select-selection-color-dark: #fff;
+@select-dropdown-backgrund-color-dark: @general-background-color-dark;
+@select-active-background-color-dark: #1e90ff;
+@btn-background-color-dark: @content-background-color-dark;
+@btn-color-dark: @select-selection-color-dark;
+@table-color-dark: @select-selection-color-dark;
+@table-thead-background-color-dark: @layout-background-color-dark;
+@table-thead-color-dark: @logo-text-color-dark;
+@table-active-background-color-dark: #32353c;
+@table-filter-background-color-dark: #2f4861;
+@table-placeholder-background-color-dark: @content-background-color-dark;
+@input-background-color-dark: @content-background-color-dark;
+@input-color-dark: @select-selection-color-dark;
+@modal-content-background-color-dark: #393d46;
+@form-label-color-dark: @select-selection-color-dark;
+@form-extra-color-dark: rgba(255, 255, 255, 0.3);
+@select-tree-active-background-color-dark: #254658;
+@select-dropdown-search-background-color-dark: #222d35;
+@table-scroll-background-color-dark: #303335;
+@notification-notice-message-color-dark: #f5f5f5;
+@list-item-meta-description-color-dark: rgba(255, 255, 255, 0.3);
+@select-tree-treenode-active-dark: #000000;
+
+// ------------------------------------------------------
+
+.ant-dark() {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .item-text,
+  .label {
+    color: @logo-text-color-dark;
+  }
+  .ant-select:not(.ant-select-customize-input) {
+    .ant-select-selector {
+      background-color: @select-selection-background-color-dark;
+      color: @select-selection-color-dark;
+    }
+    .ant-select-arrow {
+      color: @select-selection-color-dark;
+    }
+  }
+  .ant-select-dropdown {
+    background-color: @select-dropdown-backgrund-color-dark;
+    .ant-select-item-option {
+      color: @select-selection-color-dark;
+    }
+    .ant-select-item-option:hover,
+    .ant-select-item-option-active,
+    .ant-select-item-option-selected {
+      background-color: @select-active-background-color-dark;
+      color: @select-selection-color-dark;
+    }
+    input {
+      background-color: @content-background-color-dark;
+      color: @select-selection-color-dark;
+    }
+  }
+  .ant-modal-title {
+    color: @select-selection-color-dark;
+  }
+  .ant-btn:not(.ant-btn-primary):not(.ant-btn-danger) {
+    background-color: @btn-background-color-dark;
+    color: @btn-color-dark;
+  }
+  .ant-table,
+  .ant-table-cell {
+    background-color: @content-background-color-dark;
+    color: @table-color-dark;
+  }
+  .ant-table-thead > tr > th {
+    background-color: @table-thead-background-color-dark;
+    color: @table-thead-color-dark;
+  }
+  .ant-table-thead > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td,
+  .ant-table-tbody > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td,
+  .ant-table-thead > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td,
+  .ant-table-tbody > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td {
+    background-color: @table-active-background-color-dark;
+  }
+  .ant-table-filter-dropdown {
+    background-color: @table-filter-background-color-dark;
+  }
+  .ant-input {
+    background-color: @input-background-color-dark;
+    color: @input-color-dark;
+  }
+  .ant-table-placeholder {
+    background-color: @table-placeholder-background-color-dark;
+  }
+  .ant-empty-image {
+    display: none;
+  }
+  .ant-modal-content,
+  .ant-modal-header {
+    background-color: @modal-content-background-color-dark;
+  }
+  .ant-form-item-label > label,
+  .ant-checkbox-wrapper {
+    color: @form-label-color-dark;
+  }
+  .ant-form-item-explain,
+  .ant-form-item-extra {
+    color: @form-extra-color-dark;
+  }
+  .ant-input-number {
+    background-color: @input-background-color-dark;
+    color: @input-color-dark;
+  }
+  .ant-tree,
+  .ant-select-tree {
+    background-color: @content-background-color-dark;
+    color: @logo-text-color-dark;
+  }
+  .ant-tree-show-line .ant-tree-switcher {
+    background-color: @content-background-color-dark;
+    color: @select-selection-color-dark;
+  }
+  .ant-tree .ant-tree-node-content-wrapper:hover,
+  .ant-select-tree .ant-select-tree-node-content-wrapper:hover {
+    background-color: @layout-background-color-dark;
+  }
+  .ant-select-tree .ant-select-tree-treenode-active .ant-select-tree-node-content-wrapper {
+    background-color: @select-tree-treenode-active-dark;
+  }
+  .ant-timeline-item-head {
+    background-color: @content-background-color-dark;
+  }
+  .ant-divider-horizontal.ant-divider-with-text-center,
+  .ant-divider-horizontal.ant-divider-with-text-left,
+  .ant-divider-horizontal.ant-divider-with-text-right {
+    color: @logo-text-color-dark;
+  }
+  .ant-table-small > .ant-table-content .ant-table-header {
+    background-color: @table-thead-background-color-dark;
+  }
+  .ant-select-tree .ant-select-tree-node-content-wrapper.ant-select-tree-node-selected {
+    background-color: @select-tree-active-background-color-dark;
+  }
+  .ant-select-tree-switcher svg {
+    color: @select-selection-color-dark;
+  }
+  .ant-select-tree-dropdown .ant-select-dropdown-search {
+    background-color: @select-dropdown-search-background-color-dark;
+  }
+  .ant-table-fixed-header > .ant-table-content > .ant-table-scroll > .ant-table-body {
+    background-color: @table-scroll-background-color-dark;
+  }
+  .ant-modal {
+    color: @logo-text-color-dark;
+  }
+  .ant-notification-notice {
+    background-color: @layout-background-color-dark;
+  }
+  .ant-notification-notice-message {
+    color: @notification-notice-message-color-dark;
+  }
+  .ant-list-item-meta-description {
+    color: @list-item-meta-description-color-dark;
+  }
+}

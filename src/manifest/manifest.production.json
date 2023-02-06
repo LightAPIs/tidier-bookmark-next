@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
+  "author": "Light",
+  "homepage_url": "https://github.com/LightAPIs/tidier-bookmark-next",
+  "version": "2.0.0",
+  "default_locale": "en",
+  "minimum_chrome_version": "99",
+  "icons": {
+    "16": "icons/app/icon-16.png",
+    "19": "icons/app/icon-19.png",
+    "24": "icons/app/icon-24.png",
+    "32": "icons/app/icon-32.png",
+    "48": "icons/app/icon-48.png",
+    "64": "icons/app/icon-64.png",
+    "96": "icons/app/icon-96.png",
+    "128": "icons/app/icon-128.png"
+  },
+  "permissions": ["bookmarks", "tabs", "storage", "contextMenus"],
+  "options_page": "src/options/index.html",
+  "background": {
+    "service_worker": "js/background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "src/popup/index.html"
+  },
+  "commands": {
+    "activate": {
+      "suggested_key": {
+        "linux": "Ctrl+D",
+        "chromeos": "Ctrl+D",
+        "windows": "Ctrl+D",
+        "mac": "Command+D"
+      },
+      "description": "__MSG_commandActivate__"
+    }
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgtr87qPR3Gv2QrIO8gjbfZWCu7MkU7WCeyVvHfUX9P/8JQbkymCbY0T8mlCOFBknjIMRVOtKk2Im1ZEx/TNVo0apyH5oOnwpH7whFu5Ns1V72zzBcubnbQHEMZHw0WNAI8Nt/rbWCBE9cO37+ko1YTlMGVZAHJEDfR5U2VAFpts6e5dD3JV3dx2+kuz3TyBUi/koXlqABD6ZPmBe564tk+ceXYew95SmwylfF+Je5LyiFWkAthZKDTDLFlSUwLr8Ky3VfDHziZZUqUsoixHVVdXnshwJ9cbJ7xFnTL/Q+w9rv1Fqy63acv/6QQVgaRkhQQ5b7To6JfSEKWESovULqQIDAQAB"
+}

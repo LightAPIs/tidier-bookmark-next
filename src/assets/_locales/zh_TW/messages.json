@@ -1,0 +1,436 @@
+{
+  "extensionName": {
+    "message": "Tidier Bookmark"
+  },
+  "extensionDescription": {
+    "message": "允許在新增書籤時自動根據使用者定義的正則表示式規則對書籤名稱進行修改，以獲得更整潔的書籤，同時還提供了批次修改已存在書籤名稱的功能。"
+  },
+  "bookmarkNameLabel": {
+    "message": "名稱"
+  },
+  "bookmarkOriginalNameLabel": {
+    "message": "原名稱$colon$",
+    "placeholders": {
+      "colon": {
+        "content": "$1",
+        "example": ":"
+      }
+    }
+  },
+  "bookmarkUrlLabel": {
+    "message": "網址$colon$",
+    "placeholders": {
+      "colon": {
+        "content": "$1",
+        "example": ":"
+      }
+    }
+  },
+  "bookmarkFolderLabel": {
+    "message": "資料夾"
+  },
+  "bookmarkAddedTitle": {
+    "message": "已新增書籤"
+  },
+  "bookmarkAddingTitle": {
+    "message": "新增書籤中"
+  },
+  "bookmarkModifyTitle": {
+    "message": "編輯書籤"
+  },
+  "bookmarkAddTip": {
+    "message": "將此分頁加入書籤"
+  },
+  "bookmarkModifyTip": {
+    "message": "編輯此分頁的書籤"
+  },
+  "bookmarkTitlePlaceholder": {
+    "message": "請輸入名稱"
+  },
+  "bookmarkUrlPlaceholder": {
+    "message": "請輸入網址"
+  },
+  "bookmarkFolderPlaceholder": {
+    "message": "請輸入資料夾名稱"
+  },
+  "bookmarkRenameText": {
+    "message": "重新命名"
+  },
+  "bookmarkRenameTip": {
+    "message": "根據規則重新命名書籤名稱"
+  },
+  "bookmarkRestoreText": {
+    "message": "恢復"
+  },
+  "bookmarkRestoreNameTip": {
+    "message": "恢復原名稱"
+  },
+  "bookmarkRestoreUrlTip": {
+    "message": "恢復原網址"
+  },
+  "bookmarkNewFolderText": {
+    "message": "新增資料夾"
+  },
+  "bookmarkOptionsText": {
+    "message": "選項"
+  },
+  "bookmarkSaveText": {
+    "message": "儲存"
+  },
+  "bookmarkRemoveText": {
+    "message": "移除"
+  },
+  "bookmarkOkText": {
+    "message": "確定"
+  },
+  "bookmarkCancelText": {
+    "message": "取消"
+  },
+  "bookmarkErrorUpdateText": {
+    "message": "無法更新書籤"
+  },
+  "bookmarkErrorMoveText": {
+    "message": "無法移動書籤"
+  },
+  "bookmarkErrorCreateText": {
+    "message": "無法新增書籤"
+  },
+  "bookmarkErrorCreateFolderText": {
+    "message": "無法新增資料夾"
+  },
+  "bookmarkSuccessCreateFolderText": {
+    "message": "新增資料夾成功"
+  },
+  "bookmarkSuccessMoveToNewFolderText": {
+    "message": "已自動將書籤移動至新增資料夾"
+  },
+  "bookmarkErrorMoveToNewFolderText": {
+    "message": "無法自動將書籤移動至新增資料夾"
+  },
+  "optionsTitle": {
+    "message": "選項"
+  },
+  "optionsGeneralSettingsText": {
+    "message": "通用設定"
+  },
+  "optionsRuleListText": {
+    "message": "規則列表"
+  },
+  "optionsBatchOperationText": {
+    "message": "批次操作"
+  },
+  "optionsAboutText": {
+    "message": "關於擴充功能"
+  },
+  "optionsImportText": {
+    "message": "匯入配置"
+  },
+  "optionsImportTip": {
+    "message": "這將可能覆蓋當前的設定和規則"
+  },
+  "optionsImportNoFileText": {
+    "message": "沒有選擇檔案"
+  },
+  "optionsImportValidText": {
+    "message": "這是一個無效的檔案"
+  },
+  "optionsImportNotATextFile": {
+    "message": "這不是一個文字檔案"
+  },
+  "optionsImportCannotFindFile": {
+    "message": "無法找到檔案"
+  },
+  "optionsImportEmptyText": {
+    "message": "檔案內容為空"
+  },
+  "optionsImportErrorObjectText": {
+    "message": "解析物件時出錯"
+  },
+  "optionsExportText": {
+    "message": "匯出配置"
+  },
+  "optionsExportLabel": {
+    "message": "請選擇需要匯出的內容："
+  },
+  "optionsExportSettingsValue": {
+    "message": "設定值"
+  },
+  "optionsExportRulesValue": {
+    "message": "規則"
+  },
+  "optionsExportSuccess": {
+    "message": "成功匯出檔案"
+  },
+  "settingsBookmarkLabel": {
+    "message": "書籤"
+  },
+  "settingsBookmarkOnTopText": {
+    "message": "新增的書籤總是在當前資料夾最前面"
+  },
+  "settingsFolderOnTopText": {
+    "message": "新增的資料夾總是在當前資料夾的最前面"
+  },
+  "settingsDisableAutoAddText": {
+    "message": "禁止在點選擴充功能圖示時自動新增書籤"
+  },
+  "settingsSkinLabel": {
+    "message": "外觀"
+  },
+  "settingsUseFavoritesIconText": {
+    "message": "將擴充功能圖示替換成瀏覽器默認管理書籤圖示"
+  },
+  "settingsDarkModeText": {
+    "message": "深色模式$colon$",
+    "placeholders": {
+      "colon": {
+        "content": "$1",
+        "example": ":"
+      }
+    }
+  },
+  "settingsDarkModeOptionsDefault": {
+    "message": "跟隨系統"
+  },
+  "settingsDarkModeOptionsEnabled": {
+    "message": "已啟用"
+  },
+  "settingsDarkModeOptionsDisabled": {
+    "message": "已停用"
+  },
+  "settingsShortcutsLabel": {
+    "message": "快速鍵"
+  },
+  "settingsShortcutsDescription": {
+    "message": "您可以自行在擴充功能鍵盤快速鍵頁面中為 Tidier Bookmark 繫結啟用擴充功能快速鍵，以替代默認的新增書籤快速鍵，比如：Ctrl + D (Mac: ⌘ + D)。"
+  },
+  "settingsShortcutsGoText": {
+    "message": "前往:"
+  },
+  "settingsShortcutsPageText": {
+    "message": "鍵盤快速鍵"
+  },
+  "rulesTableEnableText": {
+    "message": "啟用"
+  },
+  "rulesTableIndexText": {
+    "message": "索引"
+  },
+  "rulesTableNameText": {
+    "message": "名稱"
+  },
+  "rulesTableRegText": {
+    "message": "正則"
+  },
+  "rulesTableReplacementText": {
+    "message": "替換值"
+  },
+  "rulesTableOperationText": {
+    "message": "操作"
+  },
+  "rulesHandleAddText": {
+    "message": "新增"
+  },
+  "rulesHandleDefaultNameText": {
+    "message": "規則$count$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "rulesOperationDeleteText": {
+    "message": "刪除"
+  },
+  "rulesDeleteTip": {
+    "message": "確認刪除嗎？"
+  },
+  "rulesOperationEditText": {
+    "message": "編輯"
+  },
+  "rulesEditModalTitle": {
+    "message": "編輯規則"
+  },
+  "rulesEditModalAddTitle": {
+    "message": "新增規則"
+  },
+  "rulesEditPatternLabel": {
+    "message": "模式$colon$",
+    "placeholders": {
+      "colon": {
+        "content": "$1",
+        "example": ":"
+      }
+    }
+  },
+  "rulesEditPatternMessage": {
+    "message": "請輸入模式"
+  },
+  "rulesEditFlagsLabel": {
+    "message": "標誌$colon$",
+    "placeholders": {
+      "colon": {
+        "content": "$1",
+        "example": ":"
+      }
+    }
+  },
+  "rulesEditFlagsGTip": {
+    "message": "全域性搜尋"
+  },
+  "rulesEditFlagsITip": {
+    "message": "不區分大小寫搜尋"
+  },
+  "rulesEditFlagsUTip": {
+    "message": "使用 unicode 碼的模式進行匹配"
+  },
+  "rulesEditRegexHelp": {
+    "message": "更多關於正則表示式的使用方法，請參考:"
+  },
+  "rulesEditRegexUrl": {
+    "message": "https://github.com/ziishaned/learn-regex/blob/master/translations/README-cn.md"
+  },
+  "rulesEditReplacementLabel": {
+    "message": "替換值$colon$",
+    "placeholders": {
+      "colon": {
+        "content": "$1",
+        "example": ":"
+      }
+    }
+  },
+  "rulesEditReplacementHelp": {
+    "message": "特殊字串:"
+  },
+  "rulesEditReplacementMatched": {
+    "message": "$$& 表示整個匹配字串"
+  },
+  "rulesEditReplacementSub": {
+    "message": "$$1、$$2、...、$$n 表示捕獲括號匹配的子字串"
+  },
+  "rulesEditReplacementSymbol": {
+    "message": "$$$ 表示 $$ 符號"
+  },
+  "rulesClear": {
+    "message": "清除"
+  },
+  "rulesEditReplacementPlaceholder": {
+    "message": "空白時表示清除匹配內容"
+  },
+  "rulesEditIndexHelp": {
+    "message": "同時啟用多條規則時，索引靠前的規則最先被應用"
+  },
+  "rulesEditTestLabel": {
+    "message": "測試內容$colon$",
+    "placeholders": {
+      "colon": {
+        "content": "$1",
+        "example": ":"
+      }
+    }
+  },
+  "rulesEditTestHelp": {
+    "message": "僅用於測試替換結果，不會儲存內容"
+  },
+  "rulesEditTestResultLabel": {
+    "message": "測試結果$colon$",
+    "placeholders": {
+      "colon": {
+        "content": "$1",
+        "example": ":"
+      }
+    }
+  },
+  "rulesEditTestText": {
+    "message": "測試"
+  },
+  "rulesEditConfirmText": {
+    "message": "確認"
+  },
+  "rulesTestModalTitle": {
+    "message": "測試規則"
+  },
+  "rulesTestMatchLabel": {
+    "message": "匹配規則$colon$",
+    "placeholders": {
+      "colon": {
+        "content": "$1",
+        "example": ":"
+      }
+    }
+  },
+  "rulesFilterSearchText": {
+    "message": "搜尋"
+  },
+  "rulesFilterSearchPlaceholder": {
+    "message": "搜尋$keyword$",
+    "placeholders": {
+      "keyword": {
+        "content": "$1"
+      }
+    }
+  },
+  "rulesFilterResetText": {
+    "message": "重置"
+  },
+  "batchPreviewText": {
+    "message": "預覽"
+  },
+  "batchEffectText": {
+    "message": "應用"
+  },
+  "batchNewNameLabel": {
+    "message": "新名稱$colon$",
+    "placeholders": {
+      "colon": {
+        "content": "$1",
+        "example": ":"
+      }
+    }
+  },
+  "batchCompletionText": {
+    "message": "批次替換完成！"
+  },
+  "batchNoMatching": {
+    "message": "沒有匹配的結果。"
+  },
+  "batchUndoText": {
+    "message": "撤消"
+  },
+  "aboutSupportDividerText": {
+    "message": "支援"
+  },
+  "aboutSupportLabel": {
+    "message": "Tidier Bookmark 是一款開源免費的 Chrome 擴充功能，並且絕不會收集傳送您的任何隱私資訊。"
+  },
+  "aboutSourceCodeText": {
+    "message": "原始碼 (GPLv3)"
+  },
+  "aboutFeedbackText": {
+    "message": "問題反饋"
+  },
+  "aboutRegexText": {
+    "message": "正則表示式幫助(learn-regex)"
+  },
+  "aboutDependencyDividerText": {
+    "message": "專案依賴"
+  },
+  "aboutDependencyLabel": {
+    "message": "Tidier Bookmark 依賴於以下開源專案："
+  },
+  "contextMenusBrowserRulesTitle": {
+    "message": "新增規則"
+  },
+  "commandActivate": {
+    "message": "啟用擴充功能"
+  },
+  "triggerDesc": {
+    "message": "單擊以降序排序"
+  },
+  "triggerAsc": {
+    "message": "單擊以升序排序"
+  },
+  "cancelSort": {
+    "message": "單擊以取消排序"
+  }
+}
