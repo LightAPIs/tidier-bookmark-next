@@ -29,7 +29,7 @@ jobs:
         uses: loopwerk/tag-changelog@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          config_file: .github/scripts/tag-changelog-config.js
+          config_file: .github/scripts/tag-changelog-config.cjs
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
