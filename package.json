@@ -9,7 +9,8 @@
     "build": "vue-tsc && vite build",
     "watch": "vue-tsc && cross-env NODE_ENV=development vite build --watch",
     "zip": "vue-tsc && cross-env ZIP_MODE=true vite build",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package",
+    "release": "standard-version"
   },
   "dependencies": {
     "@ant-design/icons-vue": "^6.1.0",
@@ -42,5 +43,10 @@
     "vite": "^4.1.1",
     "vite-plugin-zip-pack": "^1.0.5",
     "vue-tsc": "^1.0.24"
+  },
+  "standard-version": {
+    "scripts": {
+      "posttag": "npm run zip"
+    }
   }
 }
