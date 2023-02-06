@@ -4,7 +4,7 @@
   "description": "__MSG_extensionDescription__",
   "author": "Light",
   "homepage_url": "https://github.com/LightAPIs/tidier-bookmark-next",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "default_locale": "en",
   "minimum_chrome_version": "99",
   "icons": {
@@ -17,7 +17,12 @@
     "96": "icons/app/icon-96.png",
     "128": "icons/app/icon-128.png"
   },
-  "permissions": ["bookmarks", "tabs", "storage", "contextMenus"],
+  "permissions": [
+    "bookmarks",
+    "tabs",
+    "storage",
+    "contextMenus"
+  ],
   "options_page": "src/options/index.html",
   "background": {
     "service_worker": "js/background.js",
