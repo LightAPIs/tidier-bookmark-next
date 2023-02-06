@@ -12,6 +12,10 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout/@v3
+      - name: Use Node.js 16.16.0
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.16.0'
       - name: Get Name
         id: get_name
         uses: ashley-taylor/read-json-property-action@v1.0
@@ -24,6 +28,11 @@ jobs:
         with:
           path: ./package.json
           property: version
+      - name: Install Dependencies
+        run: npm ci
+      - name: Build Package
+        run: |
+          npm run zip
       - name: Create ChangeLog Text
         id: changelog_text
         uses: loopwerk/tag-changelog@v1
@@ -31,31 +40,11 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           config_file: .github/scripts/tag-changelog-config.cjs
       - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: ncipollo/release-action@v1
         with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
-          body: ${{ steps.changelog_text.outputs.changes }}
-          draft: false
+          token: ${{ secrets.ACTION_TOKEN }}
+          name: Release ${{ steps.get_version.outputs.value }}
           prerelease: false
-      - name: Use Node.js 16.16.0
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16.16.0'
-      - name: Install Dependencies
-        run: npm ci
-      - name: Build Package
-        run: |
-          npm run zip
-      - name: Upload Release Asset
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./archive/${{ steps.get_name.outputs.value }}_v${{ steps.get_version.outputs.value }}.zip
-          asset_name: ${{ steps.get_name.outputs.value }}_v${{ steps.get_version.outputs.value }}.zip
-          asset_content_type: application/zip
+          draft: false
+          artifacts: ./archive/${{ steps.get_name.outputs.value }}_v${{ steps.get_version.outputs.value }}.zip
+          body: ${{ steps.changelog_text.outputs.changes }}
