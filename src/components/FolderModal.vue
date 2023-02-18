@@ -37,7 +37,7 @@ const vFocus = {
   updated: handleFocus,
 };
 
-function handleFocus(el: HTMLInputElement, binding: DirectiveBinding) {
+function handleFocus(el: HTMLInputElement, binding: DirectiveBinding<boolean>) {
   if (binding.value && binding.value !== binding.oldValue) {
     setTimeout(() => {
       try {
