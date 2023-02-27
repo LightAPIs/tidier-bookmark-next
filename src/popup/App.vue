@@ -247,7 +247,7 @@ async function saveBookmark() {
     const nb = await updateBookmark(id.value, name.value, url.value || originalUrl.value);
     if (nb) {
       // 后移动书签位置
-      const mb = await moveBookmark(nb.id, folderId.value, existed.value && config.bookmarkOnTop ? 0 : undefined);
+      const mb = await moveBookmark(nb.id, folderId.value, config.bookmarkOnTop ? 0 : undefined);
       if (mb) {
         // 关闭窗口
         window.close();
